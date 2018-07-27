@@ -1,0 +1,73 @@
+/*      =====================
+
+        AJSTD STYLESHEET   	
+        v1.0; 19 July 2018   
+        Joaquim Baeta; GPL v3
+
+        =====================      */
+
+
+/*      TABLE OF CONTENTS
+
+        1. Main
+        2. Header
+        3. Homepage issue          */
+
+
+/* 1. Main */
+
+body {
+	color: #141111;
+}
+
+
+/* 2. Header */
+
+.navbar-logo {
+    max-width: 80%;
+    padding-top: 2.5rem;
+}
+
+.navbar-logo img {
+    width: 100%;
+}
+
+
+/* 3. Homepage issue */
+
+.homepage-issue-current {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 2rem;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.homepage-issue-identifier {
+	display: none;
+}
+
+.homepage-issue-published {
+    margin-top: 1.5rem !important;
+}
+
+.homepage-issue-description-more > a {
+    padding: .5em 1em;
+    border-radius: 0;
+    border: 1px solid #757575;
+    background: transparent;   
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	line-height: 1.5;
+	color: #333;
+	font-size: 1rem;
+	font-weight: 300;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
