@@ -1,7 +1,7 @@
 /*      =====================
 
         AJSTD STYLESHEET   	
-        v1.0; 19 July 2018   
+        v1.0; 17 August 2018   
         Joaquim Baeta; GPL v3
 
         =====================      */
@@ -9,20 +9,93 @@
 
 /*      TABLE OF CONTENTS
 
-        1. Main
-        2. Header
-        3. Homepage issue          */
+        1......Global
+        2......Typography
+        3......Styling
+        4......Header
+        5......Homepage
+        5.1....Homepage issue
+        5.2....Article summary     */
 
 
-/* 1. Main */
+/* 1. Global */
 
 body {
 	color: #141111;
 	background-color: #fcfcfc;
 }
 
+/* 2. Typography */
 
-/* 2. Header */
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i');
+
+h1, h2, h3, h4, h5, h6 {
+    color: #610c3a;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+}
+
+a {
+    color: #610c3a;
+}
+
+.navbar-logo a {
+    border-bottom: 0px solid #610c3a4d;
+    transition: cubic-bezier(.68,-0.55,.27,1.55) 0.35s;
+}
+
+.navbar-logo a:hover {
+    border-bottom: 10px solid #610c3a4d;
+}
+
+.article-summary-title a {
+    color: #141111;
+    border-bottom: 0px solid #610c3a4d;
+    transition: cubic-bezier(.68,-0.55,.27,1.55) 0.35s;
+}
+
+.article-summary-title a:hover {
+    border-bottom: 3px solid #610c3a4d;
+}
+
+.article-details-issue-identifier a {
+    border-bottom: 0px solid #610c3a4d;
+    transition: cubic-bezier(.68,-0.55,.27,1.55) 0.35s;
+}
+
+.article-details-issue-identifier a:hover, .article-details-issue-identifier a:focus {
+    text-decoration: none;
+    border-bottom: 3px solid #610c3a4d;
+}
+
+.article-details-doi a {
+    border-bottom: 0px solid #610c3a4d;
+    transition: cubic-bezier(.68,-0.55,.27,1.55) 0.35s;
+}
+
+.article-details-doi a:hover, .article-details-doi a:focus {
+    text-decoration: none;
+    border-bottom: 3px solid #610c3a4d;
+}
+
+/* 3. Styling */
+
+.btn.btn {
+    font-size: 1rem;
+    border-radius: 20px 40px 40px 20px;
+}
+
+.btn-primary {
+    color: #fcfcfc;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background: #141111;
+    border-color: #141111;
+    color: #fcfcfc;
+}
+
+/* 4. Header */
 
 .navbar-logo {
     max-width: 80%;
@@ -33,14 +106,18 @@ body {
     width: 100%;
 }
 
-
-/* 3. Homepage issue */
+/* 5.1. Homepage issue */
 
 .homepage-issue-current {
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 2rem;
 	font-weight: 300;
 	text-transform: uppercase;
+}
+
+.homepage-issue-cover {
+    max-width: 210px;
+    max-height: 297px;
 }
 
 .homepage-issue-identifier {
@@ -72,3 +149,19 @@ body {
 	font-weight: 300;
 	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+
+/* 5.2. Article summary */
+
+@media (min-width: 992px) {
+	.article-summary-pages {
+		width: 56px;
+	}
+}
+
+.article-summary-title {
+	font-family: 'Lora', serif;
+	font-style: italic;
+}
+
+
+
