@@ -1,31 +1,27 @@
 /*      =====================
 
         AJSTD STYLESHEET   	
-        v1.0; 17 August 2018   
+        v1.0; 21 August 2018   
         Joaquim Baeta; GPL v3
 
         =====================      */
 
-
 /*      TABLE OF CONTENTS
 
-        1......Global
-        2......Typography
-        3......Styling
-        4......Header
-        5......Homepage
-        5.1....Homepage issue
-        5.2....Article summary     */
+        1.......Typography
+        2.......Global
+        2.1.....Body
+        2.2.....Header
+        2.3.....Footer
+        3.......Styling
+        4.......Page-specific
+        4.1.....Homepage
+        4.1.1...Homepage issue
+        4.1.2...Article summary    */
 
 
-/* 1. Global */
 
-body {
-	color: #141111;
-	background-color: #fcfcfc;
-}
-
-/* 2. Typography */
+/* 1. Typography */
 
 @import url('https://fonts.googleapis.com/css?family=Lora:400,400i');
 
@@ -78,6 +74,54 @@ a {
     border-bottom: 3px solid #610c3a4d;
 }
 
+/* 2. Global */
+
+/* 2.1 Body */
+
+body {
+    color: #141111;
+    background-color: #fcfcfc;
+}
+
+/* 2.2 Header */
+
+.navbar-logo {
+    max-width: 80%;
+    padding-top: 2.5rem;
+}
+
+.navbar-logo img {
+    width: 100%;
+}
+
+/* 2.3 Footer */
+
+#customblock-prefooter {
+    width: 100%;
+    padding: 0;
+}
+
+.site-footer {
+    background: #141111;
+    color: #fcfcfc;
+    padding-bottom: 0;
+}
+
+.site-footer a {
+    color: #f9f9f9;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    color: #b9b9b9;
+    text-decoration: none;
+}
+
+.footer-brand-image {
+    vertical-align: top;
+    max-width: 80px;
+}
+
 /* 3. Styling */
 
 .btn.btn {
@@ -95,18 +139,11 @@ a {
     color: #fcfcfc;
 }
 
-/* 4. Header */
+/* 4. Page-specific */
 
-.navbar-logo {
-    max-width: 80%;
-    padding-top: 2.5rem;
-}
+/* 4.1 Homepage */
 
-.navbar-logo img {
-    width: 100%;
-}
-
-/* 5.1. Homepage issue */
+/* 4.1.1 Homepage issue */
 
 .homepage-issue-current {
 	font-family: 'Fira Sans', sans-serif;
@@ -150,7 +187,7 @@ a {
 	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-/* 5.2. Article summary */
+/* 4.1.2 Article summary */
 
 @media (min-width: 992px) {
 	.article-summary-pages {
