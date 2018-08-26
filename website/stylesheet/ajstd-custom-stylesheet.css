@@ -37,7 +37,7 @@ a {
 
 .navbar-logo a {
     border-bottom: 0px solid #610c3a4d;
-    transition: cubic-bezier(.68,-0.55,.27,1.55) 0.35s;
+    transition: ease-in-out 0.35s;
 }
 
 .navbar-logo a:hover {
@@ -47,7 +47,7 @@ a {
 .article-summary-title a {
     color: #141111;
     border-bottom: 0px solid #610c3a4d;
-    transition: cubic-bezier(.68,-0.55,.27,1.55) 0.35s;
+    transition: ease-in-out 0.35s;
 }
 
 .article-summary-title a:hover {
@@ -56,7 +56,7 @@ a {
 
 .article-details-issue-identifier a {
     border-bottom: 0px solid #610c3a4d;
-    transition: cubic-bezier(.68,-0.55,.27,1.55) 0.35s;
+    transition: ease-in-out 0.35s;
 }
 
 .article-details-issue-identifier a:hover, .article-details-issue-identifier a:focus {
@@ -66,7 +66,7 @@ a {
 
 .article-details-doi a {
     border-bottom: 0px solid #610c3a4d;
-    transition: cubic-bezier(.68,-0.55,.27,1.55) 0.35s;
+    transition: ease-in-out 0.35s;
 }
 
 .article-details-doi a:hover, .article-details-doi a:focus {
@@ -110,6 +110,7 @@ body {
 .site-footer a {
     color: #f9f9f9;
     text-decoration: none;
+    transition: ease-in-out 0.2s;
 }
 
 .site-footer a:hover {
