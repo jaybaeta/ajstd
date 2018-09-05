@@ -18,7 +18,7 @@
         4.......Page-specific
         4.1.....Homepage
         4.1.1...Homepage issue
-        4.1.2...Article summary    */
+        4.1.2...Homepage table of contents    */
 
 
 
@@ -102,10 +102,34 @@ body {
 
 /* 2.3 Navbar */
 
+#userNav .nav-link, .language-toggle .dropdown-toggle {
+    color: #a18a96;
+}
+
+#userNav .nav-link:hover, .language-toggle .dropdown-toggle:hover, #userNav .nav-link:focus, .language-toggle .dropdown-toggle:focus {
+    outline: 0;
+    border-color: transparent;
+    color: #775d6b;
+}
+
 #primaryNav .nav-link:hover, #primaryNav .nav-link:focus {
     background: transparent;
     color: #610c3a;
     border-color: transparent;
+}
+
+.badge-light {
+    background: #d1b8c5cc;
+    color: #141111aa;
+}
+
+.dropdown-item {
+    transition: ease-in-out 0.2s;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    border-color: transparent;
+    color: #d1b8c5 !important;
 }
 
 #primaryNav .dropdown-menu.show {
@@ -163,16 +187,33 @@ body {
     border-radius: 10px;
     border: 1px solid #a18a96;
     color: #775d6b;
+    text-transform: uppercase;
 }
 
 .btn-primary {
-    color: #fcfcfc;
     border-radius: 20px 40px 40px 20px;
+    border-color: #48092b !important;
+    color: #fcfcfc;
 }
 
 .btn-primary:hover, .btn-primary:focus {
     background: #141111;
     border-color: #141111;
+    color: #fcfcfc;
+}
+
+.modal-content .btn-primary {
+    background: transparent;
+    border-radius: 10px !important;
+    border-color: #fcfcfc44;
+    color: #fcfcfcaa;
+    text-transform: uppercase;
+    transition: ease-in-out 0.2s;
+}
+
+.modal-content .btn-primary:hover {
+    background: transparent;
+    border-color: #fcfcfc77;
     color: #fcfcfc;
 }
 
@@ -255,7 +296,11 @@ body {
     }
 }
 
-/* 4.1.2 Article summary */
+/* 4.1.2 Homepage table of contents */
+
+.issue-toc-section-title {
+    font-size: 1.75rem;
+}
 
 @media (min-width: 992px) {
 	.article-summary-pages {
