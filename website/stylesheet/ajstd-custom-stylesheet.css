@@ -18,7 +18,8 @@
         4.......Page-specific
         4.1.....Homepage
         4.1.1...Homepage issue
-        4.1.2...Homepage table of contents    */
+        4.1.2...Homepage table of contents
+        4.1.3...Introduction       */
 
 
 
@@ -36,48 +37,59 @@ a {
     color: #610c3a;
 }
 
-::selection {
+::selection { /* Style selections */
     background: #610c3a;
     color: #fcfcfc;
 }
 
+.border-hover { /* Hover effect on regular links */
+    color: #610c3a;
+    border-bottom: 0px solid #d1b8c5;
+    transition: cubic-bezier(.45,.05,.55,.95) 0.15s;
+}
+
+.border-hover:hover {
+    text-decoration: none;
+    border-bottom: 3px solid #d1b8c5;
+}
+
 .navbar-logo a {
-    border-bottom: 0px solid #610c3a4d;
+    border-bottom: 0px solid #d1b8c5;
     transition: cubic-bezier(.45,.05,.55,.95) 0.15s;
 }
 
 .navbar-logo a:hover {
-    border-bottom: 10px solid #610c3a4d;
+    border-bottom: 10px solid #d1b8c5;
 }
 
 .article-summary-title a {
     color: #141111;
-    border-bottom: 0px solid #610c3a4d;
+    border-bottom: 0px solid #d1b8c5;
     transition: cubic-bezier(.45,.05,.55,.95) 0.15s;
 }
 
 .article-summary-title a:hover {
-    border-bottom: 3px solid #610c3a4d;
+    border-bottom: 3px solid #d1b8c5;
 }
 
 .article-details-issue-identifier a {
-    border-bottom: 0px solid #610c3a4d;
+    border-bottom: 0px solid #d1b8c5;
     transition: cubic-bezier(.45,.05,.55,.95) 0.15s;
 }
 
 .article-details-issue-identifier a:hover, .article-details-issue-identifier a:focus {
     text-decoration: none;
-    border-bottom: 3px solid #610c3a4d;
+    border-bottom: 3px solid #d1b8c5;
 }
 
 .article-details-doi a {
-    border-bottom: 0px solid #610c3a4d;
+    border-bottom: 0px solid #d1b8c5;
     transition: cubic-bezier(.45,.05,.55,.95) 0.15s;
 }
 
 .article-details-doi a:hover, .article-details-doi a:focus {
     text-decoration: none;
-    border-bottom: 3px solid #610c3a4d;
+    border-bottom: 3px solid #d1b8c5;
 }
 
 /* 2. Global */
@@ -183,14 +195,14 @@ body {
 
 /* 3. Styling */
 
-.btn {
+.btn { /* Buttons */
     border-radius: 10px;
     border: 1px solid #a18a96;
     color: #775d6b;
     text-transform: uppercase;
 }
 
-.btn-primary {
+.btn-primary { /* Main (violet) buttons */
     border-radius: 20px 40px 40px 20px;
     border-color: #48092b !important;
     color: #fcfcfc;
@@ -202,7 +214,7 @@ body {
     color: #fcfcfc;
 }
 
-.modal-content .btn-primary {
+.modal-content .btn-primary { /* Buttons in modals with violet backgrounds */
     background: transparent;
     border-radius: 10px !important;
     border-color: #fcfcfc44;
@@ -217,20 +229,39 @@ body {
     color: #fcfcfc;
 }
 
+.form-control { /* Forms */
+    background-color: #fcfcfc;
+}
+
+
+.form-control:hover {
+    border-color: #d1b8c5;
+}
+
+.form-control:focus {
+
+    color: #495057;
+    background-color: #fff;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #d1b8c5;
+
+}
+
 /* 4. Page-specific */
 
 /* 4.1 Homepage */
 
 /* 4.1.1 Homepage issue */
 
-.homepage-issue-current {
+.homepage-issue-current { /* 'CURRENT ISSUE' text */
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 2rem;
 	font-weight: 300;
 	text-transform: uppercase;
 }
 
-.homepage-issue-cover {
+.homepage-issue-cover { /* Cover image */
     width: 210px;
     height: 297px;
 }
@@ -239,11 +270,11 @@ body {
 	display: none;
 }
 
-.homepage-issue-published {
+.homepage-issue-published { /* Date issue was published */
     margin-top: 1.5rem !important;
 }
 
-.homepage-issue-description-wrapper {
+.homepage-issue-description-wrapper { /* Issue description box */
     background: #f7f7f7;
     box-shadow: 0 0 10px #610c3a;
     height: 297px;
@@ -286,7 +317,15 @@ body {
 }
 
 @media (max-width: 1199px) {
-    .homepage-issue-description-wrapper {
+    .homepage-issue-current {
+        color: #817F7F;
+    }
+
+    .homepage-issue-published {
+        color: #949292;
+    }
+
+    .homepage-issue-description-wrapper { /* Issue description box */
         background: #fcfcfc;
         box-shadow: none;
     }
@@ -313,5 +352,18 @@ body {
 	font-style: italic;
 }
 
+/* 4.1.3 Introduction */
 
+.asean-terms {
+    list-style: none;
+}
+
+.asean-terms li::before {
+    content: "\2aa2"; 
+    color: #610c3a;
+    font-size: 1rem;
+    display: inline-block; 
+    width: 2.5rem;
+    margin-left: -2.5rem;
+}
 
