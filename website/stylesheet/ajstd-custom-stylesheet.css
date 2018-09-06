@@ -27,7 +27,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lora:400,400i');
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #610c3a;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
