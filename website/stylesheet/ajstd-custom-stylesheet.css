@@ -354,6 +354,10 @@ body {
 	font-style: italic;
 }
 
+.article-summary-doi { /* Do not show article DOIs in the table of contents */
+    display: none;
+}
+
 /* 4.1.3 Introduction */
 
 .asean-terms {
