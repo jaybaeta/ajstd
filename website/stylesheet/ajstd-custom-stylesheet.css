@@ -343,6 +343,14 @@ body {
     font-size: 1.75rem;
 }
 
+.article-summary-authors, .article-summary-pages {
+    font-size: 0.9rem;
+    color: #8E6A7D;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 1.33;
+}
+
 @media (min-width: 992px) {
 	.article-summary-pages {
 		width: 56px;
