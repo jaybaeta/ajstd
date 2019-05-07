@@ -1,0 +1,4 @@
+AJSTD publishes original research, science and technology policy discussions, or technical notes and communications in the fields of biotechnology, non-conventional energy research, materials science and technology, marine sciences, meteorology and geophysics, food science and technology, microelectronics and information technology, space applications, science and technology policy, and infrastructure and resources development. Although the majority of articles we publish focus on the ASEAN region, research or policy papers originating from outside Southeast Asia that nevertheless contribute to the shaping of scientific, technological, or economic development in the ASEAN region are also considered.
+
+Articles with the potential to make tangible contributions to scientific and technological development in the ASEAN region, whether in the form of innovative solutions to current problems or critiques of scientific policies, are especially encouraged. 
+

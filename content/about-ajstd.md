@@ -18,5 +18,4 @@ natural resources available in the ASEAN region and in general; and
 4. To provide scientific and technological support towards the implementation of existing and future
 ASEAN projects.
 
-You can find more information on the activities of ASEAN COST on its website here: http://astnet.asean.or-
-g/index.phpoption=com_content&view=categories&id=8&Itemid=130.
+You can find more information on the activities of ASEAN COST on its website here: http://astnet.asean.org/index.phpoption=com_content&view=categories&id=8&Itemid=130.
