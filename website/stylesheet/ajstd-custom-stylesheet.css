@@ -1,6 +1,6 @@
 /* ========================================================================
    AJSTD stylesheet
-   v1.3.2; 19 April 2019
+   v1.3.3; 18 June 2019
    (c) 2018-2019 Joaquim Baeta <mail@joaquimbaeta.com>
   
    This program is free software: you can redistribute it and/or modify
@@ -172,6 +172,7 @@ body {
 
 #primaryNav .dropdown-menu.show {
     border-radius: 0px 0px 20px 20px;
+    border-top: 1px solid #f7f7f7;
 }
 
 #primaryNav .dropdown-item {
