@@ -1,6 +1,6 @@
 /* ========================================================================
    AJSTD stylesheet
-   v1.031; 4 April 2019
+   v1.3.2; 19 April 2019
    (c) 2018-2019 Joaquim Baeta <mail@joaquimbaeta.com>
   
    This program is free software: you can redistribute it and/or modify
@@ -24,8 +24,11 @@
    2.2.....Header
    2.3.....Navbar
    2.4.....Footer
-   2.5.....Tooltips
    3.......Styling
+   3.1.....Buttons
+   3.2.....Forms
+   3.3.....Paragraphs
+   3.4.....Tooltips
    4.......Page-specific
    4.1.....Homepage
    4.1.1...Homepage issue
@@ -47,6 +50,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
 }
+
+/*p {
+  font-weight: 300;
+}*/
 
 a {
     color: #610c3a;
@@ -186,6 +193,14 @@ body {
     padding: 0;
 }
 
+
+@media (max-width: 767px) {
+  #customblock-prefooter {
+    padding: 15px 15px 0 15px;
+    margin-bottom: 0;
+  }
+}
+
 .site-footer {
     background: #610c3a;
     color: #d1b8c5;
@@ -212,7 +227,86 @@ body {
     max-width: 92px;
 }
 
-/* 2.5 Tooltips */
+/* 3. Styling */
+
+/* 3.1 Buttons */
+
+.btn {
+    border-radius: 10px;
+    border: 1px solid #a18a96;
+    color: #775d6b;
+    text-transform: uppercase;
+}
+
+.btn-primary { /* Main (violet) buttons */
+    border-radius: 20px 40px 40px 20px;
+    border-color: #48092b !important;
+    color: #fcfcfc;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background: #161413 !important;
+    border-color: #161413 !important;
+    color: #fcfcfc;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 .2rem #d1b8c5 !important;
+}
+
+.modal-content .btn-primary { /* Buttons in modals with violet backgrounds */
+    background: transparent;
+    border-radius: 10px !important;
+    border-color: #fcfcfc44;
+    color: #fcfcfcaa;
+    text-transform: uppercase;
+    transition: ease-in-out 0.2s;
+}
+
+.modal-content .btn-primary:hover, .modal-content .btn-primary:active {
+    background: transparent;
+    border-color: #fcfcfc77;
+    color: #fcfcfc;
+}
+
+/* 3.2 Forms */
+
+.form-control {
+    background-color: #fcfcfc;
+}
+
+.form-control:hover {
+    border-color: #d1b8c5;
+}
+
+.form-control:focus {
+
+    color: #495057;
+    background-color: #fff;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #d1b8c5;
+}
+
+@media (max-width: 575px) { /* Lists with images on the side */
+    .list-img {
+        text-align: center !important;
+    }
+
+    .list-img > img {
+        width: 150px !important;
+        margin-bottom: 2rem;
+    }
+}
+
+/* 3.3 Paragraphs */
+
+.paragraph {
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+/* 3.4 Tooltips */
 
 .hint {
   position: relative;
@@ -253,71 +347,6 @@ body {
 .hint:hover .hint-text {
   visibility: visible;
   opacity: 1;
-}
-
-/* 3. Styling */
-
-.btn { /* Buttons */
-    border-radius: 10px;
-    border: 1px solid #a18a96;
-    color: #775d6b;
-    text-transform: uppercase;
-}
-
-.btn-primary { /* Main (violet) buttons */
-    border-radius: 20px 40px 40px 20px;
-    border-color: #48092b !important;
-    color: #fcfcfc;
-}
-
-.btn-primary:hover, .btn-primary:focus {
-    background: #161413;
-    border-color: #161413 !important;
-    color: #fcfcfc;
-}
-
-.modal-content .btn-primary { /* Buttons in modals with violet backgrounds */
-    background: transparent;
-    border-radius: 10px !important;
-    border-color: #fcfcfc44;
-    color: #fcfcfcaa;
-    text-transform: uppercase;
-    transition: ease-in-out 0.2s;
-}
-
-.modal-content .btn-primary:hover {
-    background: transparent;
-    border-color: #fcfcfc77;
-    color: #fcfcfc;
-}
-
-.form-control { /* Forms */
-    background-color: #fcfcfc;
-}
-
-
-.form-control:hover {
-    border-color: #d1b8c5;
-}
-
-.form-control:focus {
-
-    color: #495057;
-    background-color: #fff;
-    border-color: #fff;
-    outline: 0;
-    box-shadow: 0 0 0 0.2rem #d1b8c5;
-}
-
-@media (max-width: 575px) { /* Lists with images on the side */
-    .list-img {
-        text-align: center !important;
-    }
-
-    .list-img > img {
-        width: 150px !important;
-        margin-bottom: 2rem;
-    }
 }
 
 /* 4. Page-specific */
