@@ -1,6 +1,6 @@
 /* ========================================================================
    AJSTD stylesheet
-   v1.4; 23 July 2019
+   v1.4.3; 18 September 2019
    (c) 2018-2019 Joaquim Baeta <mail@joaquimbaeta.com>
   
    This program is free software: you can redistribute it and/or modify
@@ -36,9 +36,10 @@
    4.1.3...Introduction
    4.2.....Issue table of contents
    4.3.....Individual articles
-   4.4.....Contact page
-   4.5.....Submissions page
-   4.6.....FAQ page
+   4.4.....All custom pages
+   4.5.....Contact page
+   4.6.....Submissions page
+   4.7.....FAQ page
 
    ======================================================================== */
 
@@ -55,6 +56,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 /*p {
   font-weight: 300;
 }*/
+
+h1 {
+  font-size: 1.75rem;
+}
 
 a {
     color: #610c3a;
@@ -153,10 +158,19 @@ body {
     color: #775d6b;
 }
 
+#primaryNav .nav-link {
+    font-weight: 300;
+    letter-spacing: 0.25px;
+    font-size: 1rem;
+}
+
 #primaryNav .nav-link:hover, #primaryNav .nav-link:focus {
     background: transparent;
     color: #610c3a;
     border-color: transparent;
+    font-weight: 300;
+    letter-spacing: 0.25px;
+    font-size: 1rem;
 }
 
 .badge-light {
@@ -181,12 +195,26 @@ body {
 #primaryNav .dropdown-item {
     color: #f9f9f9;
     transition: ease-in-out 0.2s;
+    font-weight: 300;
+  letter-spacing: 0.25px;
 }
 
 #primaryNav .dropdown-item:hover, #primaryNav .dropdown-item:focus {
     background: transparent;
     color: #d1b8c5;
     border-color: transparent;
+}
+
+.dropdown-toggle::after {
+    display: unset;
+    margin-left: 0;
+    vertical-align: baseline;
+    border: none;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f103";
+    color: #c5b3bc;
+    padding-left: 3px;
 }
 
 /* 2.4 Footer */
@@ -575,6 +603,7 @@ body {
     font-family: 'Lora', serif;
     font-style: italic;
     color: #161413;
+    line-height: 1.5;
 }
 
 .article-details-issue-section {
@@ -596,7 +625,19 @@ body {
     border-radius: 45px 0px 0px 0px;
 }
 
-/* 4.4 Contact page */
+/* 4.4 All custom pages */
+
+.custom-page .page-header h1 {
+  font-size: 2rem;
+  margin-top: 2.5rem
+  margin-bottom: 0;
+}
+
+.page-content {
+  border-top: 1px solid #d0c3ca;
+}
+
+/* 4.5 Contact page */
 
 .contact-name {
     font-size: 16px;
@@ -610,7 +651,7 @@ body {
     font-size: 16px;
 }
 
-/* 4.5 Submissions page */
+/* 4.6 Submissions page */
 
 .submissions-checklist ul {
     margin-top: 1rem;
@@ -626,7 +667,7 @@ body {
     margin-left: -2.7rem;
 }
 
-/* 4.6 FAQ page */
+/* 4.7 FAQ page */
 
 .faq-return a {
     color: #8E6A7D;
