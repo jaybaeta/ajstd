@@ -1,6 +1,6 @@
 /* ========================================================================
    AJSTD stylesheet
-   v1.4.3; 18 September 2019
+   v1.4.4; 24 October 2019
    (c) 2018-2019 Joaquim Baeta <mail@joaquimbaeta.com>
   
    This program is free software: you can redistribute it and/or modify
@@ -40,6 +40,7 @@
    4.5.....Contact page
    4.6.....Submissions page
    4.7.....FAQ page
+   4.8.....Search page
 
    ======================================================================== */
 
@@ -58,7 +59,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }*/
 
 h1 {
-  font-size: 1.75rem;
+    font-size: 1.75rem;
+
 }
 
 a {
@@ -196,7 +198,7 @@ body {
     color: #f9f9f9;
     transition: ease-in-out 0.2s;
     font-weight: 300;
-  letter-spacing: 0.25px;
+    letter-spacing: 0.25px;
 }
 
 #primaryNav .dropdown-item:hover, #primaryNav .dropdown-item:focus {
@@ -334,51 +336,51 @@ body {
 /* 3.3 Paragraphs */
 
 .paragraph {
-  font-weight: 300;
-  font-size: 1.1rem;
+    font-weight: 300;
+    font-size: 1.1rem;
 }
 
 /* 3.4 Tooltips */
 
 .hint {
-  position: relative;
-  display: inline-block;
-  color: #610c3a;
+    position: relative;
+    display: inline-block;
+    color: #610c3a;
 }
 
 .hint .hint-text {
-  visibility: hidden;
-  width: 200px;
-  background-color: #610c3a;
-  color: #fcfcfc;
-  border-radius: 10px;
-  padding: 10px 10px;
-  position: absolute;
-  z-index: 1;
-  bottom: 110%;
-  left: 50%;
-  transform: translate(-50%);
-  text-align: center;
-  font-size: 0.9rem;
-  line-height: 1.5;
-  opacity: 0;
-  transition: opacity 0.3s;
+    visibility: hidden;
+    width: 200px;
+    background-color: #610c3a;
+    color: #fcfcfc;
+    border-radius: 10px;
+    padding: 10px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 110%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    opacity: 0;
+    transition: opacity 0.3s;
 }
 
 .hint .hint-text::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #610c3a transparent transparent transparent;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #610c3a transparent transparent transparent;
 }
 
 .hint:hover .hint-text {
-  visibility: visible;
-  opacity: 1;
+    visibility: visible;
+    opacity: 1;
 }
 
 /* 4. Page-specific */
@@ -392,10 +394,10 @@ body {
 }
 
 .homepage-issue-current { /* 'CURRENT ISSUE' text */
-	font-family: 'Fira Sans', sans-serif;
-	font-size: 2rem;
-	font-weight: 300;
-	text-transform: uppercase;
+  	font-family: 'Fira Sans', sans-serif;
+  	font-size: 2rem;
+  	font-weight: 300;
+  	text-transform: uppercase;
 }
 
 .homepage-issue-cover { /* Cover image */
@@ -404,7 +406,7 @@ body {
 }
 
 .homepage-issue-identifier {
-	display: none;
+  	display: none;
 }
 
 .homepage-issue-published { /* Date issue was published */
@@ -436,11 +438,11 @@ body {
 }
 
 .homepage-issue-description:after {
-  display: none;
+    display: none;
 }
 
 .homepage-issue-description-more {
-  display: none !important;
+    display: none !important;
 }
 
 /*.homepage-issue-description-more > a {
@@ -507,8 +509,8 @@ body {
 }
 
 .article-summary-title {
-	font-family: 'Lora', serif;
-	font-style: italic;
+  	font-family: 'Lora', serif;
+  	font-style: italic;
 }
 
 .article-summary-doi { /* Do not show article DOIs in the table of contents */
@@ -628,13 +630,13 @@ body {
 /* 4.4 All custom pages */
 
 .custom-page .page-header h1 {
-  font-size: 2rem;
-  margin-top: 2.5rem
-  margin-bottom: 0;
+    font-size: 2rem;
+    margin-top: 2.5rem
+    margin-bottom: 0;
 }
 
 .page-content {
-  border-top: 1px solid #d0c3ca;
+    border-top: 1px solid #d0c3ca;
 }
 
 /* 4.5 Contact page */
@@ -677,4 +679,30 @@ body {
 .faq-return a:hover {
     color: #610c3a;
     text-decoration: none;
+}
+
+/* 4.8 Search page */
+
+.alert-info {
+    background: #f5f3f4;
+    color: #8a6f7c;
+    border-color: #c5b3bc;
+}
+
+.search-filters {
+    background: #f5f3f4;
+    border: 1px solid #c5b3bc;
+    border-radius: 45px 0 0 0;
+}
+
+.search-filters > h2 {
+  color: #8a6f7c;
+}
+
+.search-filters label {
+  color: #8a6f7c;
+}
+
+.form-control {
+    color: #610c3a;
 }
