@@ -1,7 +1,8 @@
 /* ========================================================================
    AJSTD stylesheet
-   v1.4.5; 24 October 2019
+   v1.4.6; 26 January 2020
    (c) 2018-2019 Joaquim Baeta <mail@joaquimbaeta.com>
+         for ASEAN Journal on Science & Technology for Development
   
    This program is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
@@ -505,6 +506,7 @@ body {
 
 .issue-toc-section-title {
     font-size: 1.75rem;
+    color: #610c3a;
 }
 
 .article-summary-authors, .article-summary-pages {
