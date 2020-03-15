@@ -15,9 +15,9 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="changes.svg"
-   inkscape:export-filename="/home/archaeoz/Dropbox/AJSTD/design/design/logo/new.svg.png"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="Changes to the AJSTD logo.svg"
+   inkscape:export-filename="/home/jaybaeta/Library/Ledger/Universitas Gadjah Mada/Badan Penerbit dan Publikasi/Journals/AJSTD/git/design/logo/docs/Changes to the AJSTD logo.png"
    inkscape:export-xdpi="120.0611"
    inkscape:export-ydpi="120.0611">
   <defs
@@ -14204,45 +14204,48 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="451.12613"
-     inkscape:cy="974.96431"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="327.6237"
+     inkscape:cy="546.69723"
      inkscape:document-units="mm"
      inkscape:current-layer="g53435"
      showgrid="false"
      inkscape:showpageshadow="false"
      borderlayer="true"
      inkscape:pagecheckerboard="true"
-     inkscape:window-width="1366"
-     inkscape:window-height="732"
+     inkscape:window-width="3840"
+     inkscape:window-height="2160"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="768"
      inkscape:window-maximized="1"
-     showguides="false"
+     showguides="true"
      inkscape:guide-bbox="true"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:snap-bbox="true"
-     inkscape:snap-global="true">
+     inkscape:snap-global="true"
+     inkscape:bbox-paths="false"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true">
     <sodipodi:guide
-       position="22.000001,270.71854"
+       position="20.000002,277"
        orientation="1,0"
        id="guide4008"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="50.55075,275"
+       position="19.999982,277.00001"
        orientation="0,1"
        id="guide4010"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="188.00002,294.00187"
+       position="189.97083,280.59063"
        orientation="1,0"
        id="guide4012"
        inkscape:locked="false" />
     <sodipodi:guide
-       position="103.11283,21.999988"
+       position="20.000002,20.00001"
        orientation="0,1"
        id="guide4014"
        inkscape:locked="false" />
@@ -14275,7 +14278,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -15426,26 +15429,26 @@
         </g>
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.75631142px;line-height:1;font-family:'Cormorant SC';-inkscape-font-specification:'Cormorant SC';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#141111;fill-opacity:1;stroke:none;stroke-width:0.1292021"
-           x="338.63126"
-           y="80.81105"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.16320062px;line-height:1;font-family:'Cormorant SC';-inkscape-font-specification:'Cormorant SC';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#141111;fill-opacity:1;stroke:none;stroke-width:0.14827502"
+           x="339.65674"
+           y="80.10041"
            id="text4018"
            transform="rotate(-90)"><tspan
              sodipodi:role="line"
-             x="338.63126"
-             y="80.81105"
-             style="text-align:end;text-anchor:end;fill:#141111;fill-opacity:1;stroke-width:0.1292021"
+             x="339.65674"
+             y="80.10041"
+             style="text-align:end;text-anchor:end;fill:#141111;fill-opacity:1;stroke-width:0.14827502"
              id="tspan4020">ASEAN Journal on Science &amp; Technology for Development</tspan><tspan
              sodipodi:role="line"
-             x="338.63126"
-             y="83.56736"
-             style="text-align:end;text-anchor:end;fill:#141111;fill-opacity:1;stroke-width:0.1292021;-inkscape-font-specification:'Cormorant Garamond';font-family:'Cormorant Garamond';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+             x="339.65674"
+             y="83.383827"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Light';text-align:end;text-anchor:end;fill:#141111;fill-opacity:1;stroke-width:0.14827502;font-size:2.06723363px"
              id="tspan25940">18 July 2018</tspan></text>
         <flowRoot
            xml:space="preserve"
            id="flowRoot4024"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.00000038px;line-height:1.25;font-family:'Cormorant SC';-inkscape-font-specification:'Cormorant SC';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-           transform="matrix(0,-0.1292021,0.1292021,0,68.266008,-246.81689)"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Cormorant SC';-inkscape-font-specification:'Cormorant SC';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           transform="matrix(0,-0.1292021,0.1292021,0,68.266008,-245.63549)"><flowRegion
              id="flowRegion4026"><rect
                id="rect4028"
                width="627.40167"
@@ -15453,8 +15456,8 @@
                x="83.149612"
                y="191.96713" /></flowRegion><flowPara
              id="flowPara4030"
-             style="-inkscape-font-specification:'Fira Sans Light';font-family:'Fira Sans';font-weight:300;font-style:normal;font-stretch:normal;font-variant:normal">Changes to the AJSTD logo</flowPara></flowRoot>        <flowRoot
-           transform="matrix(0,-0.1292021,0.1292021,0,73.434092,-246.81689)"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Light'">Changes to the AJSTD logo</flowPara></flowRoot>        <flowRoot
+           transform="matrix(0,-0.1292021,0.1292021,0,73.434092,-245.76624)"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:1.25;font-family:'Cormorant SC';-inkscape-font-specification:'Cormorant SC';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
            id="flowRoot4089"
            xml:space="preserve"><flowRegion
@@ -18871,7 +18874,7 @@
            xml:space="preserve"
            id="flowRoot5822"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:1.25;font-family:'Cormorant SC';-inkscape-font-specification:'Cormorant SC';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-           transform="matrix(0,-0.1292021,0.1292021,0,123.64277,-246.81689)"><flowRegion
+           transform="matrix(0,-0.1292021,0.1292021,0,123.64277,-245.71508)"><flowRegion
              id="flowRegion5818"><rect
                id="rect5816"
                width="627.40167"
