@@ -1,6 +1,6 @@
 /* ========================================================================
    AJSTD stylesheet
-   v1.4.7; 17 March 2020
+   v1.4.8; 17 March 2020
    (c) 2018-2020 Joaquim Baeta <mail@joaquimbaeta.com>
          for ASEAN Journal on Science & Technology for Development
   
@@ -56,13 +56,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 300;
 }
 
-/*p {
-  font-weight: 300;
-}*/
-
 h1 {
     font-size: 1.75rem;
-
 }
 
 a {
@@ -123,6 +118,11 @@ a {
 .article-details-doi a:hover, .article-details-doi a:focus {
     text-decoration: none;
     border-bottom: 3px solid #d1b8c5;
+}
+
+.page-content p, .page-content li {
+    font-size: 1.05rem !important;
+    font-weight: 300 !important;
 }
 
 /* 2. Global */
