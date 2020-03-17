@@ -1,7 +1,7 @@
 /* ========================================================================
    AJSTD stylesheet
-   v1.4.6; 26 January 2020
-   (c) 2018-2019 Joaquim Baeta <mail@joaquimbaeta.com>
+   v1.4.7; 17 March 2020
+   (c) 2018-2020 Joaquim Baeta <mail@joaquimbaeta.com>
          for ASEAN Journal on Science & Technology for Development
   
    This program is free software: you can redistribute it and/or modify
@@ -48,7 +48,7 @@
 
 /* 1. Typography */
 
-@import url('https://fonts.googleapis.com/css?family=Lora:400,400i');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&family=Lora:ital@0;1&display=swap');
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #610c3a;
