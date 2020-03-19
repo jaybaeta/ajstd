@@ -1,6 +1,6 @@
 /* ========================================================================
    AJSTD stylesheet
-   v1.4.15; 18 March 2020
+   v1.4.16; 18 March 2020
    (c) 2018-2020 Joaquim Baeta <mail@joaquimbaeta.com>
          for ASEAN Journal on Science & Technology for Development
   
@@ -762,3 +762,6 @@ body {
     font-size: 1.05rem;
 }
 
+.editorial-member p {
+    margin: 0;
+}
