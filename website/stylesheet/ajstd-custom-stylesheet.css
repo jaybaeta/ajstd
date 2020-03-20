@@ -1,6 +1,6 @@
 /* ========================================================================
    AJSTD stylesheet
-   v1.4.16; 18 March 2020
+   v1.4.18; 21 March 2020
    (c) 2018-2020 Joaquim Baeta <mail@joaquimbaeta.com>
          for ASEAN Journal on Science & Technology for Development
   
@@ -728,10 +728,13 @@ body {
 
 /* 4.9 Editorial team */
 
+.editorial-member .col-lg-10 {
+    display: grid;
+}
+
 .editorial-member img {
     border-radius: 40px 5px 5px 5px;
     border: 1px solid #c5b3bc;
-    margin-bottom: 
 }
 
 .editorial-member a {
@@ -743,25 +746,30 @@ body {
 }
 
 .editorial-member h3 {
-    margin-top: 0;
+    margin: 0;
+    font-size: 1.25rem;
+    align-self: center;
 }
 
 .editorial-member h4 {
-    margin-top: 0;
-    line-height: 1.5; 
+    margin: 0;
+    line-height: 1.2; 
     color: #8A6F7C; 
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.05rem;
+    align-self: self-end;
 }
 
 .editorial-member h5 {
-    margin-top: 0;
-    line-height: 1.5; 
+    margin: 0;
+    line-height: 1.2; 
     color: #8A6F7C; 
     font-weight: 300; 
     font-size: 1.05rem;
+    align-self: self-end;
 }
 
 .editorial-member p {
     margin: 0;
+    align-self: center;
 }
