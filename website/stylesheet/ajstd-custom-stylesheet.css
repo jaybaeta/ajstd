@@ -1,6 +1,6 @@
 /* ========================================================================
    AJSTD stylesheet
-   v1.4.18; 21 March 2020
+   v1.4.20 13 April 2020
    (c) 2018-2020 Joaquim Baeta <mail@joaquimbaeta.com>
          for ASEAN Journal on Science & Technology for Development
   
@@ -160,7 +160,7 @@ body {
 #userNav .nav-link:hover, .language-toggle .dropdown-toggle:hover, #userNav .nav-link:focus, .language-toggle .dropdown-toggle:focus {
     outline: 0;
     border-color: transparent;
-    color: #775d6b;
+    color: #8E6A7D;
 }
 
 #primaryNav .nav-link {
@@ -194,11 +194,11 @@ body {
 
 #primaryNav .dropdown-menu.show {
     border-radius: 0px 0px 20px 20px;
-    border-top: 1px solid #f7f7f7;
+    border-top: 1px solid #C5B3BC;
 }
 
 #primaryNav .dropdown-item {
-    color: #f9f9f9;
+    color: #fcfcfc;
     transition: ease-in-out 0.2s;
     font-weight: 300;
     letter-spacing: 0.25px;
@@ -215,8 +215,8 @@ body {
     margin-left: 0;
     vertical-align: baseline;
     border: none;
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
     content: "\f103";
     color: #c5b3bc;
     padding-left: 3px;
@@ -244,7 +244,7 @@ body {
 }
 
 .site-footer a {
-    color: #f9f9f9;
+    color: #fcfcfc;
     text-decoration: none;
     transition: ease-in-out 0.2s;
 }
@@ -270,7 +270,7 @@ body {
 .btn {
     border-radius: 10px;
     border: 1px solid #a18a96;
-    color: #775d6b;
+    color: #8E6A7D;
     text-transform: uppercase;
 }
 
@@ -316,7 +316,6 @@ body {
 }
 
 .form-control:focus {
-
     color: #495057;
     background-color: #fff;
     border-color: #fff;
@@ -534,7 +533,9 @@ body {
 }
 
 .asean-terms li::before {
-    content: "\2aa2"; 
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    content: "\f101"; 
     color: #610c3a;
     font-size: 1rem;
     display: inline-block; 
@@ -583,11 +584,11 @@ body {
 }
 
 .article-details-issue-section {
-    color: #817F7F;
+    color: #8E6A7D;
 }
 
 .article-details-published {
-    color: #817F7F;
+    color: #8E6A7D;
 }
 
 .authors-string {
@@ -704,7 +705,7 @@ body {
 
 .alert-info {
     background: #f5f3f4;
-    color: #8a6f7c;
+    color: #8E6A7D;
     border-color: #c5b3bc;
 }
 
@@ -715,11 +716,11 @@ body {
 }
 
 .search-filters > h2 {
-    color: #8a6f7c;
+    color: #8E6A7D;
 }
 
 .search-filters label {
-    color: #8a6f7c;
+    color: #8E6A7D;
 }
 
 .form-control {
@@ -754,7 +755,7 @@ body {
 .editorial-member h4 {
     margin: 0;
     line-height: 1.2; 
-    color: #8A6F7C; 
+    color: #8E6A7D; 
     font-weight: 400;
     font-size: 1.05rem;
     align-self: self-end;
@@ -763,7 +764,7 @@ body {
 .editorial-member h5 {
     margin: 0;
     line-height: 1.2; 
-    color: #8A6F7C; 
+    color: #8E6A7D; 
     font-weight: 300; 
     font-size: 1.05rem;
     align-self: self-end;
