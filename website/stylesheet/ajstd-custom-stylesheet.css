@@ -1,6 +1,6 @@
 /* ========================================================================
    AJSTD stylesheet
-   v1.4.24 29 April 2020
+   v1.4.26 14 May 2020
    (c) 2018-2020 Joaquim Baeta <mail@joaquimbaeta.com>
          for ASEAN Journal on Science & Technology for Development
   
@@ -539,11 +539,11 @@ body {
     font-family: 'Font Awesome 5 Free';
     font-weight: 700;
     content: "\f101"; 
-    color: #610c3a;
+    color: #c5b3bc;
     font-size: 1rem;
     display: inline-block; 
-    width: 2.5rem;
-    margin-left: -2.5rem;
+    width: 1.75rem;
+    margin-left: -1.75rem;
 }
 
 /* 4.1.4 Homepage announcement */
@@ -626,7 +626,7 @@ body {
 /* 4.3 Individual articles */
 
 
-.article-details-issue-identifier {
+.article-details-issue-identifier, .article-details-heading, .article-details .item > .label {
     color: #8E6A7D !important;
     font-weight: 300;
 }
@@ -666,6 +666,28 @@ body {
   font-family: 'Lora', serif;
 }
 
+.article-details-sidebar ul {
+  font-size: 1.05rem;
+  font-weight: 300;
+  list-style: none;
+}
+
+.article-details-sidebar ul li::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    content: "\f101"; 
+    color: #c5b3bc;
+    font-size: 1rem;
+    display: inline-block; 
+    width: 1.25rem;
+    margin-left: -2.5rem;
+}
+
+.article-details-keywords-value {
+  font-size: 1.05rem;
+  font-weight: 300;
+}
+
 /* 4.4 All custom pages */
 
 .custom-page .page-header h1 {
@@ -694,18 +716,25 @@ body {
 
 /* 4.6 Submissions page */
 
+.submissions-checklist {
+    font-size: 1.05rem;
+    font-weight: 300;
+}
+
 .submissions-checklist ul {
     margin-top: 1rem;
     list-style: none;
 }
 
 .submissions-checklist ul li::before {
-    content: "\2aa2"; 
-    color: #610c3a;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    content: "\f101"; 
+    color: #c5b3bc;
     font-size: 1rem;
     display: inline-block; 
-    width: 2.5rem;
-    margin-left: -2.7rem;
+    width: 1.525rem;
+    margin-left: -1.8rem;
 }
 
 /* 4.7 FAQ page */
