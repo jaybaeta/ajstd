@@ -1,6 +1,6 @@
 /* ========================================================================
    AJSTD stylesheet
-   v1.5.3 17 July 2020
+   v1.5.4 18 July 2020
    (c) 2018-2020 Joaquim Baeta <mail@joaquimbaeta.com>
          for ASEAN Journal on Science & Technology for Development
   
@@ -283,6 +283,7 @@ body {
     border: 1px solid #A18A96;
     color: #8E6A7D;
     text-transform: uppercase;
+    font-weight: 300;
 }
 
 .btn-primary { /* Main (violet) buttons */
@@ -928,4 +929,83 @@ body {
     color: #8E6A7D !important;
     font-size: 0.9rem;
     font-weight: 300;
+}
+
+/* Pagination */
+
+.page-item {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.page-item a {
+    text-decoration: none;
+}
+
+.page-link {
+    color: #8E6A7D !important;
+    transition: all ease-in-out 0.2s;
+}
+
+.page-link:hover, .page-link:focus {
+    color: #610c3a !important;
+    background: #fcfcfc !important;
+    box-shadow: none;
+}
+
+.page-item:first-child .page-link {
+    border: 0;
+}
+
+.page-item:first-child .page-link span {
+    display: none;
+}
+
+.page-item:first-child .page-link:before {
+    margin-left: 0;
+    vertical-align: text-bottom;
+    border: none;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    content: "\f100";
+    color: #C5B3BC;
+    padding-right: 3px;
+    transition: all ease-in-out 0.2s;
+}
+
+.page-item:first-child:hover .page-link:before {
+    color: #610c3a;
+}
+
+.page-item:last-child .page-link {
+    border: 0;
+}
+
+.page-item:last-child .page-link span {
+    display: none;
+}
+
+.page-item:last-child .page-link:after {
+    margin-left: 0;
+    vertical-align: text-bottom;
+    border: none;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 700;
+    content: "\f101";
+    color: #C5B3BC;
+    padding-left: 3px;
+    transition: all ease-in-out 0.2s;
+}
+
+.page-item:last-child:hover .page-link:after {
+    color: #610c3a;
+}
+
+.page-item.active .page-link {
+    border: 0;
+    color: #8E6A7D !important;
+}
+
+.page-item.disabled .page-link {
+    color: #C5B3BC !important;
 }
