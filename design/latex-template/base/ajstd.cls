@@ -1,6 +1,6 @@
 %
 %   LaTeX class file for AJSTD
-%   Copyright 2018-2020 Joaquim Baeta <mail@joaquimbaeta.com>
+%   Copyright 2018-2021 Joaquim Baeta <mail@joaquimbaeta.com>
 %
 %   This program is free software: you can redistribute it and/or modify
 %   it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@
 %
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{base/ajstd}[2020/12/11, version 1.5.3]
+\ProvidesClass{base/ajstd}[2021/05/19, version 1.5.4]
 \AtEndOfClass{\RequirePackage{microtype}} % For better typography
 
 %   Options for element switching
@@ -45,15 +45,15 @@
 
 % Paragraph structure
 \RequirePackage{setspace}
-	\setstretch{1.09} % Body leading; on pages with no figures/tables and headings layout may be broken, so set to 1.0878 on per-paragraph basis using spacing environment
+	\setstretch{1.121} % Body leading; on pages with no figures/tables and headings layout may be broken, so set to 1.0878 on per-paragraph basis using spacing environment
 	\edef\restoreparindent{\parindent=\the\parindent\relax} % Maintain indents when using parskip package with \restoreparindent
 \RequirePackage{parskip}
 	\setlength{\parskip}{0pt plus 0.5pt minus 0pt} % Maintain spaces between paragraphs
 	\restoreparindent % Restore indents when using parskip package
 	\setlength{\parindent}{16pt} % Indent length
-\RequirePackage{enumitem} 
-	\setlist[itemize]{noitemsep} % Remove separation between list items
-	\setlist[enumerate]{noitemsep} % Remove separation between list items
+\RequirePackage{enumitem}
+	\setlist[itemize]{noitemsep,leftmargin=16pt,label=\textcolor{royalviolet}{\textbullet}} % Remove separation between list items
+	\setlist[enumerate]{noitemsep,labelindent=16pt,style=multiline,leftmargin=*,label=\textcolor{royalviolet}{\sffamily\arabic*.}} % Remove separation between list items
 
 % Language and fonts
 \RequirePackage[english]{babel} % Typographic support for different languages 
@@ -279,7 +279,7 @@
 %   Set structure of first page
 	\renewcommand{\@maketitle}{\bgroup\setlength{\parindent}{0pt}
 	\begin{minipage}{0.2\textwidth}
-        \vspace{4pt}\includegraphics[width=29mm]{base/ajstd-logo.pdf}
+        \vspace{0pt}\includegraphics[width=25mm]{base/ajstd-logo-2.pdf}
     \end{minipage}%
     \begin{minipage}{0.8\textwidth}
         \vspace{-2pt}
